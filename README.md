@@ -43,3 +43,10 @@ Also, add a screenshot! Take a picture of your theme, and save it as "screenshot
 ### Credits
 
 Material theme by [pichalite](https://github.com/pichalite).
+
+### XDA Development
+
+Linking plugins in separte repos
+
+        ~/XDA/nodebb-theme-quickstart > npm link
+        ~/XDA/NodeBB npm link nodebb-theme-quickstart

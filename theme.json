@@ -1,6 +1,7 @@
 {
     "id": "nodebb-theme-quickstart",
-    "name": "My Theme Name",
+    "name": "Quickstart XDA",
     "description": "Enter a description here",
-    "url": "https://github.com/nodebb/nodebb-theme-quickstart"
+    "url": "https://github.com/xda/nodebb-theme-quickstart",
+    "screenshot": "screenshot.png"
 }
