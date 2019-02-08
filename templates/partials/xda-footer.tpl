@@ -36,11 +36,13 @@
 						<i class="fa fa-twitter"></i>
 					</a>
 				</li>
+				<!--
 				<li>
 					<a href="https://discord.gg/EhaMzy2" target="_blank" title="XDA Developer on Discord">
 						<i class="fa fa-discord"></i>
 					</a>
 				</li>
+				 -->
 				<li>
 					<a href="https://www.facebook.com/xda.developers" target="_blank" title="XDA Developers on Facebook">
 						<i class="fa fa-facebook-f"></i>
