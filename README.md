@@ -46,7 +46,9 @@ Material theme by [pichalite](https://github.com/pichalite).
 
 ### XDA Development
 
-Linking plugins in separte repos
+Linking plugins in separate repos
 
-        ~/XDA/nodebb-theme-quickstart > npm link
-        ~/XDA/NodeBB npm link nodebb-theme-quickstart
+        cd ~/XDA/nodebb-theme-xda
+        npm link
+        cd ~/XDA/NodeBB
+        npm link nodebb-theme-xda

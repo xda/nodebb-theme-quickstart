@@ -1,5 +1,5 @@
 {
-  "name": "nodebb-theme-quickstart",
+  "name": "nodebb-theme-xda",
   "version": "0.0.0",
   "description": "Enter a description here",
   "main": "theme.less",
@@ -7,6 +7,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xda/nodebb-theme-quickstart"
+    "url": "https://github.com/xda/nodebb-theme-xda"
   }
 }
