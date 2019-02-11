@@ -21,7 +21,7 @@
 				<span>{topics.title}</span><br />
 				<!-- ENDIF !topics.noAnchor -->
 
-				{topics.teaser.content}
+				<p class="topic-excerpt">{topics.teaser.contentShort}…</p>
 
 				<!-- IF !template.category -->
 				<small>
@@ -75,7 +75,7 @@
 		</div>
 
 		<div class="col-md-3 col-sm-3 teaser hidden-xs" component="topic/teaser">
-			<a href="#" class="btn btn-primary">Read Full Article</a>
+			<a href="{topics.teaser.readMoreURL}" class="btn btn-primary">Read Full Article</a>
 		</div>
 	</li>
 	<!-- END topics -->

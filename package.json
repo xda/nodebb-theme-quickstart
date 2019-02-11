@@ -5,8 +5,8 @@
   "main": "theme.less",
   "keywords": [],
   "license": "MIT",
-	"repository": {
-	    "type": "git",
-	    "url": "https://github.com/xda/nodebb-theme-quickstart"
-	}
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xda/nodebb-theme-quickstart"
+  }
 }
