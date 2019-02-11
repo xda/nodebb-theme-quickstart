@@ -44,7 +44,7 @@ Also, add a screenshot! Take a picture of your theme, and save it as "screenshot
 
 Material theme by [pichalite](https://github.com/pichalite).
 
-### XDA Development
+# XDA Development
 
 Linking plugins in separate repos
 
@@ -55,3 +55,5 @@ Linking plugins in separate repos
 Setting theme from CL
 
         ./nodebb reset -t nodebb-theme-xda
+
+`teaserContentShort()` requires the first two paragraphs of a topic be built with a specific structure to build `contentShort` and `readMoreURL` for topics_list properly.
