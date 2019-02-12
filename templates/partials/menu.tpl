@@ -1,8 +1,4 @@
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle pull-left" id="mobile-menu">
-					<span component="notifications/icon" class="notification-icon fa fa-fw fa-bell-o unread-count" data-content="{unreadCount.notification}"></span>
-					<i class="fa fa-lg fa-fw fa-bars"></i>
-				</button>
 
 				<a href="/">
 					<img alt="XDA.dev" class="forum-logo" src="/plugins/nodebb-theme-xda/images/xda-dev-v2.png">
@@ -13,6 +9,11 @@
 					<h1 class="navbar-brand forum-title">{config.siteTitle}</h1>
 				</a>
 				<!-- ENDIF config.showSiteTitle -->
+				
+				<button type="button" class="navbar-toggle" id="mobile-menu">
+					<span component="notifications/icon" class="notification-icon fa fa-fw fa-bell-o unread-count" data-content="{unreadCount.notification}"></span>
+					<i class="fa fa-lg fa-fw fa-bars"></i>
+				</button>
 
 				<div component="navbar/title" class="visible-xs hidden">
 					<span></span>
