@@ -1,7 +1,7 @@
 <footer class="footer container-fluid">
 	<div class="row">
 		
-	  <div class="footer-about col-md-5">
+	  <div class="footer-section footer-about col-md-5">
 	    <img src="/plugins/nodebb-theme-xda/images/xda-logo_newcolors.svg" alt="XDA Developers" class="footer-logo">
 	    <p>XDA Developers was founded by developers, for developers. It is now a valuable resource for people who want to make the most of their mobile devices, from customizing the look and feel to adding new functionality.</p>
 	    <ul class="footer-about-links">
@@ -10,7 +10,7 @@
 	    </ul>
 	  </div>
 
-		<div class="footer-links col-md-5">
+		<div class="footer-section footer-links col-md-5">
 			<h4 class="footer-heading">More info</h4>
 			<ul>
 				<li><a href="https://www.xda-developers.com/contact/">Contact</a></li>
@@ -28,7 +28,7 @@
 			</ul>
 		</div>
 
-		<div class="footer-social col-md-2">
+		<div class="footer-section footer-social col-md-2">
       <h4 class="footer-heading">We're Social</h4>
 			<ul class="social-links">
 				<li>
