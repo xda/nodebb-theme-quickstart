@@ -21,7 +21,7 @@
 				<span>{topics.title}</span><br />
 				<!-- ENDIF !topics.noAnchor -->
 
-				<p class="topic-excerpt">{topics.teaser.contentShort}…</p>
+				<p class="topic-excerpt">{topics.teaser.contentShort}… <a href="{topics.teaser.readMoreURL}">Read full article</a></p>
 
 				<!-- IF !template.category -->
 				<small>
