@@ -2,12 +2,14 @@
 	<div class="row">
 		
 	  <div class="footer-section footer-about col-md-5">
-	    <img src="/plugins/nodebb-theme-xda/images/xda-logo_newcolors.svg" alt="XDA Developers" class="footer-logo">
-	    <p>XDA Developers was founded by developers, for developers. It is now a valuable resource for people who want to make the most of their mobile devices, from customizing the look and feel to adding new functionality.</p>
-	    <ul class="footer-about-links">
-	    	<li><a href="https://www.xda-developers.com/recognized-developer-program/">Are you a developer?</a></li>
-	    	<li><a href="https://www.xda-developers.com/xda-tos/">Terms of Service</a></li>
-	    </ul>
+	    <img src="/plugins/nodebb-theme-xda/images/xda-dev-v2-white.png" alt="XDA.dev" class="footer-logo">
+	    <div>
+		    <p>XDA Developers was founded by developers, for developers. It is now a valuable resource for people who want to make the most of their mobile devices, from customizing the look and feel to adding new functionality.</p>
+		    <ul class="footer-about-links">
+		    	<li><a href="https://www.xda-developers.com/recognized-developer-program/">Are you a developer?</a></li>
+		    	<li><a href="https://www.xda-developers.com/xda-tos/">Terms of Service</a></li>
+		    </ul>
+	    </div>
 	  </div>
 
 		<div class="footer-section footer-links col-md-5">
