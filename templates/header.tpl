@@ -41,7 +41,7 @@
 		<!-- IF config.showSiteTitle -->
 		<div class="container">
 			<a href="<!-- IF title:url -->{title:url}<!-- ELSE -->{relative_path}/<!-- ENDIF title:url -->">
-				<h1 class="navbar-brand forum-title">{config.siteTitle}</h1>
+				<h1 class="navbar-brand forum-title">Discuss topics from the XDA Portal</h1>
 			</a>
 		</div>
 		<!-- ENDIF config.showSiteTitle -->
