@@ -2,7 +2,7 @@
 	<div class="row">
 		
 	  <div class="footer-about col-md-5">
-	    <img src="https://forum.xda-cdn.com/images/2015/xda-logo_newcolors.svg" alt="XDA Developers" class="footer-logo">
+	    <img src="/plugins/nodebb-theme-xda/images/xda-logo_newcolors.svg" alt="XDA Developers" class="footer-logo">
 	    <p>XDA Developers was founded by developers, for developers. It is now a valuable resource for people who want to make the most of their mobile devices, from customizing the look and feel to adding new functionality.</p>
 	    <ul class="footer-about-links">
 	    	<li><a href="https://www.xda-developers.com/recognized-developer-program/">Are you a developer?</a></li>
