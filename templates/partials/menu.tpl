@@ -5,7 +5,7 @@
 				</button>
 
 				<a href="/">
-					<img alt="XDA.dev" class="forum-logo" src="/plugins/nodebb-theme-xda/images/site-logo.png" />
+					<img alt="XDA.dev" class="forum-logo" src="/plugins/nodebb-theme-xda/images/xda-dev-v2.png">
 				</a>
 
 				<!-- IF config.showSiteTitle -->
