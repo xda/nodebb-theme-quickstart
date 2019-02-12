@@ -156,7 +156,7 @@
 				</ul>
 				<!-- ENDIF config.loggedIn -->
 				<!-- IF config.searchEnabled -->
-				<ul class="nav navbar-nav navbar-right hidde-xs">
+				<ul class="nav navbar-nav navbar-right hidden-xs">
 					<li>
 						<form id="search-form" class="navbar-form navbar-right hidden-xs" role="search" method="GET">
 							<button id="search-button" type="button" class="btn btn-link"><i class="fa fa-search fa-fw" title="[[global:header.search]]"></i></button>
