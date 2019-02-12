@@ -51,6 +51,7 @@ Linking plugins in separate repos
         cd ~/XDA/nodebb-theme-xda
         npm link
         cd ~/XDA/NodeBB
+        npm link nodebb-theme-xda
 
 Setting theme from CL
 
