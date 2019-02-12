@@ -37,5 +37,14 @@
 				<!-- IMPORT partials/menu.tpl -->
 			</div>
 		</nav>
+
+		<!-- IF config.showSiteTitle -->
+		<div class="container">
+			<a href="<!-- IF title:url -->{title:url}<!-- ELSE -->{relative_path}/<!-- ENDIF title:url -->">
+				<h1 class="navbar-brand forum-title">{config.siteTitle}</h1>
+			</a>
+		</div>
+		<!-- ENDIF config.showSiteTitle -->
+
 		<div class="container" id="content">
 		<!-- IMPORT partials/noscript/warning.tpl -->

@@ -4,12 +4,6 @@
 					<img alt="XDA.dev" class="forum-logo" src="/plugins/nodebb-theme-xda/images/xda-dev-v2.png">
 				</a>
 
-				<!-- IF config.showSiteTitle -->
-				<a href="<!-- IF title:url -->{title:url}<!-- ELSE -->{relative_path}/<!-- ENDIF title:url -->">
-					<h1 class="navbar-brand forum-title">{config.siteTitle}</h1>
-				</a>
-				<!-- ENDIF config.showSiteTitle -->
-
 				<!-- IF config.loggedIn -->
 				<button type="button" class="navbar-toggle" id="mobile-menu">
 					<span component="notifications/icon" class="notification-icon fa fa-fw fa-bell-o unread-count" data-content="{unreadCount.notification}"></span>
