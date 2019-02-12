@@ -20,7 +20,7 @@
 				<!-- IF !maintenanceHeader -->
 				<!-- IF config.loggedIn -->
 
-				<ul id="logged-in-menu" class="nav navbar-nav navbar-right">
+				<ul id="logged-in-menu" class="nav navbar-nav navbar-right hidden-xs">
 					<li class="notifications dropdown text-center hidden-xs" component="notifications">
 						<a href="{relative_path}/notifications" title="[[global:header.notifications]]" class="dropdown-toggle" data-toggle="dropdown" id="notif_dropdown" data-ajaxify="false" role="button">
 							<i component="notifications/icon" class="fa fa-fw fa-bell-o unread-count" data-content="{unreadCount.notification}"></i>
@@ -156,7 +156,7 @@
 				</ul>
 				<!-- ENDIF config.loggedIn -->
 				<!-- IF config.searchEnabled -->
-				<ul class="nav navbar-nav navbar-right">
+				<ul class="nav navbar-nav navbar-right hidde-xs">
 					<li>
 						<form id="search-form" class="navbar-form navbar-right hidden-xs" role="search" method="GET">
 							<button id="search-button" type="button" class="btn btn-link"><i class="fa fa-search fa-fw" title="[[global:header.search]]"></i></button>
