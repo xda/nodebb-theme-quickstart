@@ -9,11 +9,13 @@
 					<h1 class="navbar-brand forum-title">{config.siteTitle}</h1>
 				</a>
 				<!-- ENDIF config.showSiteTitle -->
-				
+
+				<!-- IF config.loggedIn -->
 				<button type="button" class="navbar-toggle" id="mobile-menu">
 					<span component="notifications/icon" class="notification-icon fa fa-fw fa-bell-o unread-count" data-content="{unreadCount.notification}"></span>
 					<i class="fa fa-lg fa-fw fa-bars"></i>
 				</button>
+				<!-- ENDIF config.loggedIn -->
 
 				<div component="navbar/title" class="visible-xs hidden">
 					<span></span>
@@ -154,7 +156,6 @@
 					<!-- ENDIF allowRegistration -->
 					<li>
 						<a href="{relative_path}/login">
-							<i class="fa fa-sign-in fa-fw hidden-sm hidden-md hidden-lg"></i>
 							<span>[[global:login]]</span>
 						</a>
 					</li>
