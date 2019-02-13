@@ -18,10 +18,12 @@
 	margin: 0 !important;
 	color: #6c757d;
 	float: none !important;
-	display: block !important;
+	display: block;
 	text-align: center;
 	padding-top: 0;
 	font-weight: 400;
+
+	body.page-topic & { display: none; }
 }
 
 @media (max-width: @screen-sm-max) {
