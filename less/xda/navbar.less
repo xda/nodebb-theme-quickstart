@@ -1,5 +1,15 @@
 .navbar-header {
 	display: flex;
+
+	&.logged-out {
+		float: none;
+	}
+}
+
+#nav-dropdown {
+	&.logged-out {
+		.pagination-block { display: none !important; }
+	}
 }
 
 .navbar-right { float: right; }
@@ -22,3 +32,11 @@
 }
 
 #mobile-menu { margin-left: auto; }
+
+#logged-out-menu {
+	margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav { margin: 0; }

@@ -1,4 +1,4 @@
-<div class="navbar-header">
+<div class="navbar-header <!-- IF config.loggedIn -->logged-in<!-- ELSE -->logged-out<!-- ENDIF config.loggedIn -->">
 
 	<a href="/">
 		<img alt="XDA.dev" class="forum-logo" src="/plugins/nodebb-theme-xda/images/xda-dev-v2.png">
@@ -9,6 +9,22 @@
 		<span component="notifications/icon" class="notification-icon fa fa-fw fa-bell-o unread-count" data-content="{unreadCount.notification}"></span>
 		<i class="fa fa-lg fa-fw fa-bars"></i>
 	</button>
+	<!-- ELSE -->
+	<ul id="logged-out-menu" class="nav navbar-nav">
+		<!-- IF allowRegistration -->
+		<li>
+			<a href="{relative_path}/register">
+				<i class="fa fa-pencil fa-fw hidden-sm hidden-md hidden-lg"></i>
+				<span>[[global:register]]</span>
+			</a>
+		</li>
+		<!-- ENDIF allowRegistration -->
+		<li>
+			<a href="{relative_path}/login">
+				<span>[[global:login]]</span>
+			</a>
+		</li>
+	</ul>
 	<!-- ENDIF config.loggedIn -->
 
 	<div component="navbar/title" class="visible-xs hidden">
@@ -16,7 +32,7 @@
 	</div>
 </div>
 
-<div id="nav-dropdown">
+<div id="nav-dropdown" class="<!-- IF config.loggedIn -->logged-in<!-- ELSE -->logged-out<!-- ENDIF config.loggedIn -->">
 	<!-- IF !maintenanceHeader -->
 	<!-- IF config.loggedIn -->
 
@@ -137,22 +153,6 @@
 			</ul>
 		</li>
 
-	</ul>
-	<!-- ELSE -->
-	<ul id="logged-out-menu" class="nav navbar-nav navbar-right">
-		<!-- IF allowRegistration -->
-		<li>
-			<a href="{relative_path}/register">
-				<i class="fa fa-pencil fa-fw hidden-sm hidden-md hidden-lg"></i>
-				<span>[[global:register]]</span>
-			</a>
-		</li>
-		<!-- ENDIF allowRegistration -->
-		<li>
-			<a href="{relative_path}/login">
-				<span>[[global:login]]</span>
-			</a>
-		</li>
 	</ul>
 	<!-- ENDIF config.loggedIn -->
 	<!-- IF config.searchEnabled -->
