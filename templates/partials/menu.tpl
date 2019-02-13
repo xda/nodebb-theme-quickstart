@@ -154,7 +154,6 @@
 		</li>
 
 	</ul>
-	<!-- ENDIF config.loggedIn -->
 	<!-- IF config.searchEnabled -->
 	<ul class="nav navbar-nav navbar-right hidden-xs">
 		<li>
@@ -176,6 +175,7 @@
 		</li>
 	</ul>
 	<!-- ENDIF config.searchEnabled -->
+	<!-- ENDIF config.loggedIn -->
 
 	<ul class="nav navbar-nav navbar-right hidden-xs">
 		<li>
